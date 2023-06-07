@@ -16,5 +16,7 @@ public class Q5_String_Pallindrome
         sb.reverse();
         
         return s.equals(sb.toString());
+        
+//        return new StringBuffer(s).reverse().toString().equals(s);
     }
 }
